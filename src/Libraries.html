@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HKU Libraries</title>
+    <meta  name="viewpoint" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/Libraries.css"/>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/holder.min.js"></script>
+    <script type="text/javascript" src="js/Libraries.js"></script>
+</head>
+<body >
+<div class="container">
+    <!--    <div class="row">-->
+        <!--<div class="col-md-1 col-sm-2" style="background: red;">1</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: yellow;">2</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: greenyellow;">3</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: blueviolet;">4</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: bisque;">5</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: cyan;">6</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: burlywood;">7</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: lightslategrey;">8</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: lightblue;">9</div>-->
+        <!--<div class="col-md-1 col-sm-2 " style="background: #f0ad4e;">10</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: tomato;">11</div>-->
+        <!--<div class="col-md-1 col-sm-2" style="background: bisque;">12</div>-->
+        <!--</div>-->
+
+    <!--high contrast-->
+    <div class="row">
+        <div class="col-md-7" style="border-left:1px dashed #999999; border-right: 1px dashed #999999;">&nbsp;</div>
+        <div class="col-md-5" style="padding-left: 280px;border-right: 1px dashed #999999;">
+            High Contrast
+            <span id="a">&nbsp;&nbsp;&nbsp;A</span>&nbsp;&nbsp;&nbsp;
+            <span id="b">A</span>&nbsp;&nbsp;&nbsp;
+            <span id="c">A</span></div>
+    </div>
+    <!--the university of hong kong-->
+    <div class="row">
+        <div class="col-md-7 col-sm-10" style="margin-top:-8px;border-left: 1px dashed #999999;border-right: 1px dashed #999999;">
+            <img src="images/logo_hkulib.png" alt="" style="width: 40%;"/>
+        </div>
+        <div class="col-md-5 col-sm-8" id="hour">
+            <ul>
+                <li><a href="http://www.xiyou.edu.cn">Hours</a></li>
+                <li><a href="#">Contact&nbsp;US</a></li>
+                <li><a href="#">E-Forms</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--ask a librarian-->
+    <div class="row" style="border-top:1px solid #cccccc;">
+        <div class="col-md-7" style="padding: 0;border-left: 1px dashed #999999;">
+            <div class="col-md-12" style="padding:0;">
+                <div id="div11" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active "  >
+                            <img src="images/201606-AsbestosRemoval-roller_3.jpg" alt=""  style="width: 100%;"/>
+                        </div>
+                        <div class="item">
+                            <img src="images/201606-MyanmarPainting-roller.jpg" alt="" style="width: 100%;"/>
+                        </div>
+                        <div class="item">
+                            <img src="images/EX201605-DeaconsArchives-roller.jpg" alt="" style="width: 100%;"/>
+                        </div>
+                        <div class="item">
+                            <img src="images/GeneratorTest201607-roller.jpg" alt="" style="width: 100%;"/>
+                        </div>
+                        <div class="item">
+                            <img src="images/HKUL-WhatsAppLibrarian-roller_1.jpg" alt="" style="width: 100%;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--轮播器手动-->
+            <div id="div21">
+                <div id="divLeft"><img src="images/arrow_sans_left-128.png" alt=""/></div>
+                <div id="pause">Pause</div>
+                <div id="resume">Resume</div>
+                <div id="divRight"><img src="images/arrow_sans_right-128.png" alt=""/></div>
+            </div>
+            <!--选项卡-->
+            <div id="div31">
+                <button class="btn btn-sm active01 find" id="find"  style="margin-left: 28px;" >Find@HKUL</button>
+                <button class="btn-sm btn database" id="database">Databases</button>
+                <button class="btn-sm btn site" id="site">Site Search</button>
+                <div style="display: block; border-top: 2px solid #46b8da;" id="btn01" >
+                    <p style="padding-left: 28px;padding-top: 10px;">Discover the collection at HKUL in one go&nbsp;&nbsp;<img src="images/button_help.gif;" alt=""/></p>
+                    <input type="text" placeholder="Search physical and electronic resources" size="40" style="margin-left: 28px;"/>
+                    &nbsp;&nbsp;<input type="submit" class="btn-xs" value="SEARCH" style="background: url(images/search_bg.gif);padding-left: 10px;padding-right: 10px;color: #ffffff;"/>
+                    <input type="checkbox" id="books"/><label for="books" style="font-weight:300;">Books</label>
+                    <input type="checkbox" id="Articles"/><label for="Articles" style="font-weight:300;">Articles</label>
+                    <div id="dashed" style="width:90%;height:1px;margin-left:28px;margin-top:10px;border: 1px dashed #000000;background: #ffffff;"></div>
+                    <p style="padding-left: 28px;padding-top: 10px;padding-bottom: 15px;">Course Reserves by <a href="#" style="text-decoration: underline;">Instructor</a> or <a href="#" style="text-decoration: underline;">Course</a></p>
+                </div>
+                <div id="btn02" >
+                    <p style="padding-left: 28px;padding-top: 10px;">Choose a database to perform more in‐depth research</p>
+                    <input type="text" placeholder="Find a research database" size="40" style="margin-left: 28px;"/>
+                    &nbsp;&nbsp;<input type="submit" class="btn-xs" value="SEARCH" style="background: url(images/search_bg.gif);padding-left: 10px;padding-right: 10px;color: #ffffff;"/>
+                    <div style="width:50%;height:90%;float:left;background: #bce8f1; ">
+                        <ul style="list-style: none;padding-left: 30px;">
+                            <li><a href="#">By Subject</a></li>
+                            <li><a href="#">A-Z list</a></li>
+                            <li><a href="#">Key English E-resources</a></li>
+                            <li><a href="#">Key Chinese E-resources</a></li>
+                        </ul>
+                    </div>
+                    <div style="width:50%;height:90%;float: left;background: #bce8f1;">
+                        <ul style="list-style: none;">
+                            <li><a href="#">E-Book collection</a></li>
+                            <li><a href="#">E-Theses collection</a></li>
+                            <li><a href="#">E-News collection</a></li>
+                            <li><a href="#">Specifications and standards collection</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="btn03">
+                    <p style="margin-left: 28px;padding-top: 10px;">Explore the HKU Libraries website</p>
+                    <input type="text" placeholder="Search library services and facilities" size="40" style="margin-left: 28px;"/>
+                    &nbsp;&nbsp;<input type="submit" class="btn-xs" value="SEARCH" style="background: url(images/search_bg.gif);padding-left: 10px;padding-right: 10px;color: #ffffff;"/>
+                    <p style="font-style: italic;margin-left: 28px;margin-top: 10px;padding-bottom:30px;">Powered by Google</p>
+                </div>
+            </div>
+            <!--About HKUL-->
+            <div id="about" style="background-image: url(images/about_bg.jpg);width: 100%;height: 100%;border-right: 1px solid #cccccc;">
+                <p style="line-height: 20px;padding-left:20px;padding-top: 10px;color: #269abc;">About HKUL</p>
+                <div id="ul01" style="width: 30%;height: 90%;float: left;border-bottom:1px solid #cccccc;">
+                    <ul>
+                        <li><a href="#">Hours</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">e-Forms</a></li>
+                        <li><a href="#">Policy</a></li>
+                    </ul>
+                </div>
+                <div id="ul02" style="width: 70%;height: 90%;float: left;border-bottom: 1px solid #cccccc;">
+                    <ul>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a href="#">Giving to HUKL</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Publications</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- branches&services area-->
+            <div id="branch" style="width: 100%;height: 100%;">
+                <p style="line-height: 30px;padding-left:20px;padding-top: 10px;color: #269abc;">Branches&Services Area</p>
+                <div id="ul03" style="width: 35%;height: 100%;float: left;border-bottom:1px solid #cccccc;">
+                    <ul>
+                        <li><a href="#">Main Library</a></li>
+                        <li style="padding-left: 10px;"><a href="#">Level 3</a></li>
+                        <li style="padding-left: 10px;"><a href="#">AV&Reserve Collection</a></li>
+                        <li style="padding-left: 10px;"><a href="#">Special Collections</a></li>
+                    </ul>
+                </div>
+                <div id="ul04" style="width: 40%;height: 100%;float: left;border-bottom: 1px solid #cccccc;">
+                    <ul>
+                        <li><a href="#">Fung Ping Shan Library</a></li>
+                        <li><a href="#">Yu Chun Keung Medical Library</a></li>
+                        <li><a href="#">Lui Che Woo Law Library</a></li>
+                        <li><a href="#">Preservation&Conservation</a></li>
+                    </ul>
+                </div>
+                <div id="ul05" style="width: 25%;height: 100%;float: left;border-bottom: 1px solid #cccccc;">
+                    <ul>
+                        <li><a href="#">Dental</a></li>
+                        <li><a href="#">Education Library</a></li>
+                        <li><a href="#">Music Library</a></li>
+                        <li style="list-style: none;">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- renovation-->
+            <div id="renovation">
+                <p style="line-height: 30px;padding-left:20px;padding-top: 10px;color: #269abc;">
+                    Renovation and Improvement works
+                </p>
+                <ul  style="width:100%;float: left;border-bottom: 1px solid #cccccc;padding-bottom: 20px;">
+                    <li style="float: left;" ><a href="#">New Main Library Entrance</a></li>
+                    <li style="list-style-type:solid;float: left;margin-left:40px;"><a href="#">Old Wing Asbestos Abatement Work</a></li>
+                </ul>
+            </div>
+            <!-- 2015and 2016-->
+            <div id="1516">
+                <img src="images/WARS_2015_Web_Gold_wSolgan.png" alt="" style="width: 27%;margin-left: 50px;"/>
+                <img src="images/WARS_2016_Web_Gold_wSolgan.png" alt="" style="width: 30%;margin-left: 60px;"/>
+            </div>
+            <!-- the university of hongkong-->
+        </div>
+
+        <div class="col-md-5" style="border-right: 1px dashed #999999;padding: 0;">
+            <!-- user information-->
+            <div id="user">
+                <p> User Information</p>
+            </div>
+            <div id="student">
+                <ul>
+                    <li><a href="#">Student</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">Graduate</a></li>
+                    <li><a href="#">Public</a></li>
+                </ul>
+            </div>
+            <div id="myaccount"><b>MyAccount@HKUL</b></div>
+            <div id="accountImg"> <img src="images/account_bg.jpg" alt=""/></div>
+            <div id="research">
+                <span>Research Tools</span>
+            </div>
+            <div id="ul_left">
+                <ul>
+                    <li><a href="#">Dragon.HKUL Catalogue</a></li>
+                    <li><a href="#">Other Library Catalogues</a></li>
+                    <li><a href="#">Electronic Resources</a></li>
+                    <li><a href="#">HKUL Digital Initiatives</a></li>
+                    <li><a href="#">MyLibrary</a></li>
+                </ul>
+            </div>
+            <div id="ul_right">
+                <ul>
+                    <li><a href="#">HKU Scholars Hub</a></li>
+                    <li><a href="#">Find@HKUL</a></li>
+                </ul>
+                <img src="images/" alt=""/>
+            </div>
+
+            <!-- research support-->
+            <div id="support">
+                <p>Research Support</p>
+            </div>
+            <div id="train">
+                <ul>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Research Guides</a></li>
+                    <li><a href="#" >Subject Guides</a></li>
+                </ul>
+                <div id="trainImg">
+                    <img src="images/ask_btn.gif" alt="" style="padding-top: 0;"/>
+                    <img src="images/book-a-space.gif" alt="" style="padding-top: 20px;padding-bottom: 20px;"/>
+                </div>
+            </div>
+            <div id="endnote">
+                <ul>
+                    <li><a href="#">Endnote</a></li>
+                    <li><a href="#">Turnitin</a></li>
+                </ul>
+            </div>
+            <!-- Communication@HKUL-->
+            <div id="communicate">
+                <p>Communication @HKUL</p>
+            </div>
+            <div id="new">
+                <ul>
+                    <li style="margin-top: -10px;"><a href="#">New fee  for library cards</a></li>
+                    <li><a href="#">Wi-Fi Printing for MacBooks is now available</a></li>
+                    <li><a href="#">Senate Library Committee Agendas and Minutes</a></li>
+                    <li><a href="#">New Acquisitions List</a></li>
+                    <li><a href="#">Cyclical Maintenance Project</a></li>
+                    <li><a href="#">Old Wing Asbestos Abatement Work</a></li>
+                    <li><a href="#" style="margin-top: 10px;color: mediumseagreen;"><b>...</b>More</a></li>
+                </ul>
+            </div>
+            <div id="bottomImg">
+                <img src="images/icon01.gif" alt="" style="padding-left: 20px;"/>
+                <img src="images/icon02.gif" alt=""/><img src="images/icon04.gif" alt=""/>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row" id="foot">
+        <div class="col-md-12">
+            <div id="university">
+                <p style="line-height: 10px;padding-top: 10px;padding-left: 20px;">The University of Hong Kong Libraries, The University of Hong Kong , Pokfulam Road, Hong Kong</p>
+                <span style="margin-top: -40px;padding-left: 20px;"> Copyright © 2011 All rights reserved. </span>
+            </div>
+            <div id="policy">
+                <span>Privacy Policy</span>
+                <span>Copyright & Disclaimer</span>
+                <span>Web Accessibility</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>

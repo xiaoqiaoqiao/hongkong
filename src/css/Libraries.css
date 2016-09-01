@@ -1,0 +1,290 @@
+/*body{*/
+    /*background-image:url(page.gif);*/
+/*}*/
+#a{
+    font-size: 10px;
+    color: indianred;
+}
+#b{
+    font-size: 16px;
+}
+#c{
+    font-size: 20px;
+}
+#hour{
+    padding-top: 20px;
+    border-right: 1px dashed #999999;
+    padding-bottom: 10px;
+}
+#hour ul{
+
+}
+#hour ul li{
+    float: left;
+    display: block;
+    margin-left: 18px;
+    margin-top: 5px;
+
+}
+#hour ul li a{
+    color: #000000;
+}
+#hour ul a :hover{
+    text-decoration: underline;
+}
+#divLeft{
+    width:10px;
+    height: 10px;
+    float: left;
+    margin-left:575px;
+}
+#divLeft img{
+    width: 100%;
+}
+#divRight{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 2px;
+}
+#divRight img{
+    width: 100%;
+}
+#pause{
+    float: left;
+    margin-left: 2px;
+
+}
+#resume{
+    float: left;
+    display: none;
+}
+#div31{
+    width: 100%;
+    height: 30%;
+    border-right: 1px solid #cccccc;
+}
+#div31 button{
+    background:cornflowerblue ;
+}
+#div31 .active01{
+    background: #5bc0de;
+}
+#div31 #btn01{
+    width: 100%;
+    height: 100%;
+    background: #bce8f1;
+    display: none;
+}
+#div31 #btn02{
+    width: 100%;
+    height: 100%;
+    background: #bce8f1;
+    display: none;
+}
+#div31 #btn03{
+    width: 100%;
+    height: 100%;
+    background: #bce8f1;
+    display: none;
+}
+/*#about{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-image: url(../images/about_bg.jpg);*/
+/*}*/
+#about ul li{
+    margin-top: 5px;
+}
+#about ul li a{
+    color:#101010;
+}
+#branch ul li{
+    margin-top: 5px;
+}
+#branch ul li a{
+    color:#101010;
+}
+#renovation ul li{
+    margin-top: 5px;
+}
+#renovation ul li a{
+    color:#101010;
+}
+#university{
+    font-size:9px;
+}
+#user{
+    background-image:url("../images/head_bg.gif");
+}
+#user p{
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+#student ul li{
+    float: left;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+#student ul li a{
+    color: #000000;
+}
+#myaccount{
+    width:200px;
+    height: 35px;
+    background: yellowgreen;
+    padding-top: 5px;
+    margin-left:140px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}
+#accountImg{
+    float: left;
+    margin-left: 67px;
+    margin-top: 2px;
+}
+#research{
+    clear: both;
+    height:30px;
+    background-image:url("../images/head_bg.gif");
+}
+#research span{
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+#ul_left{
+    width: 50%;
+    float: left;
+}
+#ul_left ul{
+    /*list-style: none;*/
+}
+#ul_left ul li{
+    margin-top: 5px;
+}
+#ul_left ul li a{
+    padding-top: 30px;
+    /*padding-left: 30px;*/
+
+    color: #000000;
+}
+#ul_right{
+    width: 50%;
+    float: left;
+}
+#ul_right ul{
+    /*list-style: none;*/
+}
+#ul_right ul li{
+    margin-top: 5px;
+}
+#ul_right ul li a{
+    font-size: 14px;
+    color: #000000;
+}
+#support{
+    clear: both;
+    background-image:url("../images/head_bg_green.gif");
+}
+#support p{
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+#train{
+    width: 50%;
+    float: left;
+}
+#train ul li{
+    margin-top: 5px;
+}
+#train ul li a{
+    /*padding-left: 20px;*/
+    font-size: 14px;
+    color: #000000;
+}
+
+#endnote{
+    width: 50%;
+    float: left;
+}
+#endnote ul li{
+    margin-top: 5px;
+}
+#endnote ul li a{
+    font-size: 14px;
+    color: #000000;
+}
+#communicate{
+    clear: both;
+    padding-left: 0;
+    margin-left: -1px;
+    margin-top: 0px;
+    background-image:url("../images/head_bg_green.gif");
+}
+#communicate p{
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+#new{
+    width: 100%;
+    border-left: 1px solid #cccccc;
+}
+#new ul li{
+    margin-top: 5px;
+}
+#new ul li a{
+    font-size: 14px;
+    color: #000000;
+}
+#bottomImg{
+    width: 100%;
+    height: 200px;
+    margin-top: -10px;
+    border-left: 1px solid #cccccc;
+}
+#bottomImg img{
+    float: left;
+    padding-left:5px;
+    padding-bottom: 20px;
+}
+#trainImg{
+    padding-top: 0;
+    margin-top: 0px;
+    padding-left: 0;
+    padding-bottom: 0px;
+    margin-left: -1px;
+    border-left: 1px solid #cccccc;
+}
+#trainImg img{
+    padding-left: 25px;
+}
+#foot{
+    border-left: 1px dashed #cccccc;
+    border-right: 1px dashed #cccccc;
+}
+#university{
+    width: 60%;
+    float: left;
+}
+#policy{
+    width: 40%;
+    float: left;
+}
+#policy span{
+    display: block;
+    float: left;
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 12px;
+}
